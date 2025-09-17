@@ -7,50 +7,55 @@
     <androidx.gridlayout.widget.GridLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
             android:id="@+id/imageView1"
-            android:padding="10dp"
             android:layout_width="150dp"
             android:layout_height="150dp"
-            android:layout_marginTop="250dp"
             android:layout_marginLeft="50dp"
+            android:layout_marginTop="250dp"
+            android:background="@drawable/border"
+            android:padding="20dp"
             app:layout_column="0"
             app:layout_row="0"
             app:srcCompat="@drawable/pic1" />
 
         <ImageView
             android:id="@+id/imageView2"
-            android:padding="10dp"
             android:layout_width="150dp"
             android:layout_height="150dp"
-            android:layout_marginTop="250dp"
             android:layout_marginLeft="200dp"
+            android:layout_marginTop="250dp"
+            android:background="@drawable/border"
+            android:padding="20dp"
             app:layout_column="0"
             app:layout_row="0"
-            app:srcCompat="@drawable/pic1" />
+            app:srcCompat="@drawable/pic2" />
 
         <ImageView
             android:id="@+id/imageView3"
-            android:padding="10dp"
             android:layout_width="150dp"
             android:layout_height="150dp"
-            android:layout_marginTop="350dp"
             android:layout_marginLeft="50dp"
+            android:layout_marginTop="400dp"
+            android:background="@drawable/border"
+            android:padding="20dp"
             app:layout_column="0"
             app:layout_row="0"
-            app:srcCompat="@drawable/pic1" />
+            app:srcCompat="@drawable/pic3" />
 
         <ImageView
             android:id="@+id/imageView4"
-            android:padding="10dp"
             android:layout_width="150dp"
             android:layout_height="150dp"
-            android:layout_marginTop="350dp"
             android:layout_marginLeft="200dp"
+            android:layout_marginTop="400dp"
+            android:background="@drawable/border"
+            android:padding="20dp"
             app:layout_column="0"
             app:layout_row="0"
-            app:srcCompat="@drawable/pic1" />
+            app:srcCompat="@drawable/pic4" />
     </androidx.gridlayout.widget.GridLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
