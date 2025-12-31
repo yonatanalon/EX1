@@ -4,3 +4,6 @@
     <stroke android:color="#3F03F4" android:width="5dp"/>
     <corners android:radius="5dp"/>
 </shape>
+
+new -> drawble resorce file
+root element -> shape
